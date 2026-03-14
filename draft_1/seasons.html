@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STRIKER FC — Seasons</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23e8ff00'/><text y='24' x='4' font-size='22' font-weight='900' font-family='sans-serif'>S</text></svg>" />
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════════
+       NAVBAR
+  ════════════════════════════════════════════ -->
+  <nav class="navbar scrolled">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-mark">SF</div>
+        <div class="logo-text">
+          <span class="logo-name">Striker FC</span>
+          <span class="logo-sub">Est. 2020</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li class="dropdown">
+          <button class="dropdown-toggle" style="color:var(--clr-text);">
+            Seasons
+            <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="season3.html">Season 3</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="about.html#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="mobile-nav">
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="season3.html" class="mobile-sub active">→ Season 3</a>
+    <a href="about.html">About Us</a>
+    <a href="about.html#contact">Contact Us</a>
+  </div>
+
+  <!-- ════════════════════════════════════════════
+       PAGE HEADER
+  ════════════════════════════════════════════ -->
+  <header class="page-header" data-title="SEASONS">
+    <div class="container">
+      <p class="section-label">Our History</p>
+      <h1 class="section-title">All Seasons</h1>
+      <p style="color:var(--clr-muted);margin-top:1rem;max-width:500px;">
+        <!-- Replace with your seasons overview text -->
+        Every season tells a story. From our humble beginnings to where we stand today — this is the Striker FC journey.
+      </p>
+    </div>
+  </header>
+
+  <!-- ════════════════════════════════════════════
+       SEASONS GRID
+       — Add new season cards as your seasons grow
+  ════════════════════════════════════════════ -->
+  <section class="section" style="padding-top:4rem;">
+    <div class="container">
+
+      <div class="seasons-grid">
+
+        <!-- Season 3 Card — LIVE -->
+        <div class="season-card reveal">
+          <div class="season-img">
+            <!-- Replace with your Season 3 image -->
+            <img src="https://picsum.photos/700/400?random=30" alt="Season 3 placeholder" loading="lazy" />
+            <span class="season-badge">Current</span>
+          </div>
+          <div class="season-body">
+            <p class="season-number">Season 03 · 2025</p>
+            <h2 class="season-title">Rise of the Strikers</h2>
+            <p class="season-desc">
+              <!-- Replace with Season 3 description -->
+              Our boldest season yet. New players, new rivalries, and a championship to chase. Placeholder — add your Season 3 story here.
+            </p>
+            <div class="season-stats">
+              <!-- Replace with real Season 3 stats -->
+              <div class="s-stat">
+                <span>12</span><small>Matches</small>
+              </div>
+              <div class="s-stat">
+                <span>8W</span><small>Wins</small>
+              </div>
+              <div class="s-stat">
+                <span>2L</span><small>Losses</small>
+              </div>
+            </div>
+            <a href="season3.html" class="btn btn-primary" style="width:100%; justify-content:center;">
+              View Season 3
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 8h10M9 4l4 4-4 4"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Season 2 Card — PLACEHOLDER (not linked yet) -->
+        <div class="season-card reveal" style="opacity:0.6; pointer-events:none;">
+          <div class="season-img">
+            <img src="https://picsum.photos/700/400?random=20" alt="Season 2 placeholder" loading="lazy" />
+            <span class="season-badge" style="background:var(--clr-muted);">Archive</span>
+          </div>
+          <div class="season-body">
+            <p class="season-number">Season 02 · 2024</p>
+            <h2 class="season-title">Finding Our Feet</h2>
+            <p class="season-desc">
+              <!-- Replace with Season 2 description -->
+              Placeholder — add your Season 2 story, matches, and highlights here once ready.
+            </p>
+            <div class="season-stats">
+              <div class="s-stat"><span>—</span><small>Matches</small></div>
+              <div class="s-stat"><span>—</span><small>Wins</small></div>
+              <div class="s-stat"><span>—</span><small>Losses</small></div>
+            </div>
+            <button class="btn btn-outline" style="width:100%; justify-content:center;" disabled>Coming Soon</button>
+          </div>
+        </div>
+
+        <!-- Season 1 Card — PLACEHOLDER (not linked yet) -->
+        <div class="season-card reveal" style="opacity:0.6; pointer-events:none;">
+          <div class="season-img">
+            <img src="https://picsum.photos/700/400?random=10" alt="Season 1 placeholder" loading="lazy" />
+            <span class="season-badge" style="background:var(--clr-muted);">Archive</span>
+          </div>
+          <div class="season-body">
+            <p class="season-number">Season 01 · 2023</p>
+            <h2 class="season-title">The Beginning</h2>
+            <p class="season-desc">
+              <!-- Replace with Season 1 description -->
+              Where it all started. Placeholder — add your founding season story and milestones here.
+            </p>
+            <div class="season-stats">
+              <div class="s-stat"><span>—</span><small>Matches</small></div>
+              <div class="s-stat"><span>—</span><small>Wins</small></div>
+              <div class="s-stat"><span>—</span><small>Losses</small></div>
+            </div>
+            <button class="btn btn-outline" style="width:100%; justify-content:center;" disabled>Coming Soon</button>
+          </div>
+        </div>
+
+      </div><!-- /seasons-grid -->
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════ -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="nav-logo" style="margin-bottom:1rem;">
+            <div class="logo-mark">SF</div>
+            <div class="logo-text">
+              <span class="logo-name">Striker FC</span>
+              <span class="logo-sub">Est. 2020</span>
+            </div>
+          </div>
+          <p>A passionate sports team built on grit, teamwork, and the relentless pursuit of victory.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Twitter">𝕏</a>
+            <a href="#" aria-label="YouTube">YT</a>
+            <a href="#" aria-label="Facebook">FB</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="season3.html">Season 3</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="about.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:hello@strikerfc.com">hello@strikerfc.com</a></li>
+            <li><a href="tel:+910000000000">+91 00000 00000</a></li>
+            <li><a href="#">Your City, India</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Striker FC. All rights reserved.</p>
+        <p style="font-size:0.75rem;color:var(--clr-muted);">Built with ♥ — replace this with your team name</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STRIKER FC — Gallery</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23e8ff00'/><text y='24' x='4' font-size='22' font-weight='900' font-family='sans-serif'>S</text></svg>" />
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════════
+       NAVBAR
+  ════════════════════════════════════════════ -->
+  <nav class="navbar scrolled">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-mark">SF</div>
+        <div class="logo-text">
+          <span class="logo-name">Striker FC</span>
+          <span class="logo-sub">Est. 2020</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li class="dropdown">
+          <button class="dropdown-toggle">
+            Seasons
+            <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4l4 4 4-4"/></svg>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="season3.html">Season 3</a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="about.html#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="mobile-nav">
+    <a href="index.html">Home</a>
+    <a href="gallery.html" class="active">Gallery</a>
+    <a href="season3.html" class="mobile-sub">→ Season 3</a>
+    <a href="about.html">About Us</a>
+    <a href="about.html#contact">Contact Us</a>
+  </div>
+
+  <!-- ════════════════════════════════════════════
+       PAGE HEADER
+  ════════════════════════════════════════════ -->
+  <header class="page-header" data-title="GALLERY">
+    <div class="container">
+      <p class="section-label">Visual Archive</p>
+      <h1 class="section-title">Gallery</h1>
+      <p style="color:var(--clr-muted); margin-top:1rem; max-width:500px;">
+        <!-- Replace with your gallery description -->
+        Behind every match, there's a story. Browse through our collection of moments, memories, and milestones.
+      </p>
+    </div>
+  </header>
+
+  <!-- ════════════════════════════════════════════
+       GALLERY GRID
+       — Add or remove .gallery-item divs as needed
+       — Replace image src with your actual photos
+  ════════════════════════════════════════════ -->
+  <section class="section" style="padding-top:4rem;">
+    <div class="container">
+
+      <!-- Filter buttons (visual only — wire up JS if needed) -->
+      <div style="display:flex; gap:0.5rem; margin-bottom:2rem; flex-wrap:wrap;">
+        <button class="btn btn-primary" style="padding:0.5rem 1.25rem; font-size:0.8rem;">All</button>
+        <button class="btn btn-outline" style="padding:0.5rem 1.25rem; font-size:0.8rem;">Match Day</button>
+        <button class="btn btn-outline" style="padding:0.5rem 1.25rem; font-size:0.8rem;">Training</button>
+        <button class="btn btn-outline" style="padding:0.5rem 1.25rem; font-size:0.8rem;">Off Field</button>
+      </div>
+
+      <div class="gallery-grid">
+
+        <!-- Gallery items — click to open lightbox -->
+        <!-- Replace each src with your real photo URLs -->
+        <div class="gallery-item reveal">
+          <img src="https://picsum.photos/600/450?random=11" alt="Match photo placeholder" loading="lazy" />
+          <div class="gallery-overlay">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+              <path d="M11 8v6M8 11h6"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img src="https://picsum.photos/600/450?random=12" alt="Team training placeholder" loading="lazy" />
+          <div class="gallery-overlay">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+              <path d="M11 8v6M8 11h6"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img src="https://picsum.photos/600/450?random=13" alt="Celebration placeholder" loading="lazy" />
+          <div class="gallery-overlay">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+              <path d="M11 8v6M8 11h6"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img src="https://picsum.photos/600/450?random=14" alt="Match photo placeholder" loading="lazy" />
+          <div class="gallery-overlay">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+              <path d="M11 8v6M8 11h6"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img src="https://picsum.photos/600/450?random=15" alt="Trophy placeholder" loading="lazy" />
+          <div class="gallery-overlay">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+              <path d="M11 8v6M8 11h6"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img src="https://picsum.photos/600/450?random=16" alt="Team photo placeholder" loading="lazy" />
+          <div class="gallery-overlay">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+              <path d="M11 8v6M8 11h6"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img src="https://picsum.photos/600/450?random=17" alt="Action shot placeholder" loading="lazy" />
+          <div class="gallery-overlay">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+              <path d="M11 8v6M8 11h6"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img src="https://picsum.photos/600/450?random=18" alt="Off field placeholder" loading="lazy" />
+          <div class="gallery-overlay">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+              <path d="M11 8v6M8 11h6"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal">
+          <img src="https://picsum.photos/600/450?random=19" alt="Match winner placeholder" loading="lazy" />
+          <div class="gallery-overlay">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+              <path d="M11 8v6M8 11h6"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Add more gallery items by copying one block above -->
+
+      </div><!-- /gallery-grid -->
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════
+       LIGHTBOX OVERLAY
+  ════════════════════════════════════════════ -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <div class="lightbox-inner">
+      <button class="lightbox-close" aria-label="Close">&times;</button>
+      <button class="lightbox-nav lightbox-prev" aria-label="Previous">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M13 4l-6 6 6 6"/>
+        </svg>
+      </button>
+      <img id="lightbox-img" src="" alt="Enlarged view" />
+      <button class="lightbox-nav lightbox-next" aria-label="Next">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M7 4l6 6-6 6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════ -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="nav-logo" style="margin-bottom:1rem;">
+            <div class="logo-mark">SF</div>
+            <div class="logo-text">
+              <span class="logo-name">Striker FC</span>
+              <span class="logo-sub">Est. 2020</span>
+            </div>
+          </div>
+          <p>A passionate sports team built on grit, teamwork, and the relentless pursuit of victory.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Twitter">𝕏</a>
+            <a href="#" aria-label="YouTube">YT</a>
+            <a href="#" aria-label="Facebook">FB</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="season3.html">Season 3</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="about.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:hello@strikerfc.com">hello@strikerfc.com</a></li>
+            <li><a href="tel:+910000000000">+91 00000 00000</a></li>
+            <li><a href="#">Your City, India</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Striker FC. All rights reserved.</p>
+        <p style="font-size:0.75rem;color:var(--clr-muted);">Built with ♥ — replace this with your team name</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
